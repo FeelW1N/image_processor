@@ -1,0 +1,9 @@
+add_executable(
+    image_processor
+        image_processor/image_processor.cpp
+        imageio/imageio.cpp
+        imageio/imageio.h
+        imagefilter/imagefilter.cpp
+        imagefilter/imagefilter.h
+        image_exception/image_exception.h
+)
